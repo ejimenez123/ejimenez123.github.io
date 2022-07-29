@@ -11,7 +11,7 @@
  </div>
 </template>
 
-<script>
+<script lang="ts">
 
 export default {
   props: {
@@ -22,9 +22,7 @@ export default {
     return {
       readMore: false
     }
-  }
-  ,mounted (){console.log(this.key)}
-  
+  }  
 }
 </script>
 

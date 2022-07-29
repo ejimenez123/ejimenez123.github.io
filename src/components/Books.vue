@@ -21,7 +21,7 @@
 </div>
 </template>
 
-<script>
+<script lang="ts">
 import Icon from '@/components/Icon.vue'
 import Book from '@/components/Book.vue'
 import Books from '@/store/Books'

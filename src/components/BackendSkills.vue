@@ -33,7 +33,7 @@
 </div>
 </template>
 
-<script>
+<script lang="ts">
 import Icon from '@/components/Icon.vue'
 import BackendSkill from '@/components/BackendSkill.vue'
 import BackendSkills from '@/store/BackendSkills'

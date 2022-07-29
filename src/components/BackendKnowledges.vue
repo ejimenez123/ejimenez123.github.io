@@ -17,7 +17,7 @@
 </div>
 </template>
 
-<script>
+<script lang="ts">
 import BackendKnowledge from '@/components/BackendKnowledge.vue'
 import BackendKnowledges from '@/store/BackendKnowledges'
 

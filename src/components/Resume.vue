@@ -29,7 +29,7 @@
   </div>
 </template>
 
-<script>
+<script lang="ts">
 import AgileDevelopments from '@/components/AgileDevelopments.vue'
 import BackendSkills from '@/components/BackendSkills.vue'
 import BackendKnowledges from '@/components/BackendKnowledges.vue'

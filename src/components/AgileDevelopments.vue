@@ -32,7 +32,7 @@
 </div>
 </template>
 
-<script>
+<script lang="ts">
 import Icon from '@/components/Icon.vue'
 import AgileDevelopment from '@/components/AgileDevelopment.vue'
 import AgileDevelopments from '@/store/AgileDevelopments'

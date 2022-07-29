@@ -12,7 +12,7 @@
 </div>
 </template>
 
-<script>
+<script lang="ts">
 import Icon from '@/components/Icon.vue'
 import Profesion from '@/components/Profesion.vue'
 import Profesions from '@/store/Profesions'

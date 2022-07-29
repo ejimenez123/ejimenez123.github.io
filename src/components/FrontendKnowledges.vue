@@ -17,7 +17,7 @@
 </div>
 </template>
 
-<script>
+<script lang="ts">
 import FrontendKnowledge from '@/components/FrontendKnowledge.vue'
 import FrontendKnowledges from '@/store/FrontendKnowledges'
 

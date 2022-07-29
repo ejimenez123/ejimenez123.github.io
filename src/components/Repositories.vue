@@ -17,7 +17,7 @@
 </div>
 </template>
 
-<script>
+<script lang="ts">
 import Icon from '@/components/Icon.vue'
 import Repository from '@/components/Repository.vue'
 

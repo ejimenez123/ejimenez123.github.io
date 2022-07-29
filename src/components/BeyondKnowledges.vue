@@ -17,7 +17,7 @@
 </div>
 </template>
 
-<script>
+<script lang="ts">
 import BeyondKnowledge from '@/components/BeyondKnowledge.vue'
 import BeyondKnowledges from '@/store/BeyondKnowledges'
 

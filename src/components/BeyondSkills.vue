@@ -25,7 +25,7 @@
 </div>
 </template>
 
-<script>
+<script lang="ts">
 import Icon from '@/components/Icon.vue'
 import BeyondSkill from '@/components/BeyondSkill.vue'
 import BeyondSkills from '@/store/BeyondSkills'

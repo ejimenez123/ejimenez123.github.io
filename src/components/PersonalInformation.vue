@@ -53,7 +53,7 @@
 </div>
 </template>
 
-<script>
+<script lang="ts">
 import FormItem from '@/components/FormItem.vue'
 
 export default {
