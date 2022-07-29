@@ -1,0 +1,10 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+.bgClassResume{ background: #242424; }
+.bgClass1{ background: #2F2F2F; }
+.bgInput { background: #1D1D1D; }
+
+.bgButton { background: #42B883; color: #fff }
+
