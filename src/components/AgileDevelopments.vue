@@ -10,14 +10,14 @@
       de la vida del proyecto. Tales como Scrum, eXtreme Programming, Kanban, Lean y Kaizen.
     </span>
     <span v-else> ... </span>        
-      <button class="bg-gray-300 text-red-300 px-3 rounded" @click="readMore0 =! readMore0">
+      <button class="bg-stone-700 hover:bg-stone-600 px-3 rounded" @click="readMore0 =! readMore0">
         <span v-if="readMore0">Leer -</span>
         <span v-else>Leer +</span>
       </button> 
     </p>
   </div> 
     <p class="p-4 text-left">* Metodologías
-      <button class="bg-blue-200 text-red-300 px-3 rounded" @click="readMore1 =! readMore1">
+      <button class="bg-stone-700 hover:bg-stone-600 px-3 rounded" @click="readMore1 =! readMore1">
         <span v-if="readMore1">Leer -</span>
         <span v-else>Leer +</span>
       </button>

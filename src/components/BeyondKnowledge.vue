@@ -1,3 +1,19 @@
+<script lang="ts">
+
+export default {
+  props: {
+    data: Object,
+    n: Number
+  },
+  data () {
+    return {
+      readMore: false
+    }
+  }
+  
+}
+</script>
+
 <template> 
   <div class="flex" :class="n % 2 === 0 ? 'bg-blue-100' : 'bg-gray-200'">
     <div class="w-1/4 p-2 text-left text-sm">
@@ -21,20 +37,6 @@
  </div>
 </template>
 
-<script lang="ts">
 
-export default {
-  props: {
-    data: Object,
-    n: Number
-  },
-  data () {
-    return {
-      readMore: false
-    }
-  }
-  
-}
-</script>
 
 <style scoped></style>
