@@ -14,11 +14,6 @@ export default {
       h: 'https://es.wikipedia.org/wiki/MongoDB',
       v1: 'Sistema de base de datos NoSQL,',
       v2: 'orientado a documentos y de código abierto. En lugar de guardar los datos en tablas, tal y como se hace en las bases de datos relacionales, MongoDB guarda estructuras de datos BSON (una especificación similar a JSON) con un esquema dinámico, haciendo que la integración de los datos en ciertas aplicaciones sea más fácil y rápida.'
-    }, {
-      k: 'My SQL',
-      h: 'https://es.wikipedia.org/wiki/MySQL',
-      v1: 'Sistema de gestión de bases',
-      v2: 'de datos relacional de código abierto.'
     }
   ] 
 }

@@ -13,7 +13,7 @@
     <img src="@/assets/img/index.jpeg" class="hidden rounded-lg lg:block p-10">    
     <PersonalInformation />
     <World />
-    <Socialite />    
+    <!--Socialite /-->    
   </div>
 </template>
 

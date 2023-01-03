@@ -1,3 +1,18 @@
+<script lang="ts">
+
+export default {
+  props: {
+    data: Object,
+    n: Number
+  },
+  data () {
+    return {
+      readMore: false
+    }
+  } 
+}
+</script>
+
 <template> 
   <div class="flex border-b-2 border-red-200">
     <div class="w-full p-6 text-left">
@@ -20,20 +35,7 @@
  </div>
 </template>
 
-<script lang="ts">
 
-export default {
-  props: {
-    data: Object,
-    n: Number
-  },
-  data () {
-    return {
-      readMore: false
-    }
-  } 
-}
-</script>
 
 <style scoped>
 .v-enter-active,

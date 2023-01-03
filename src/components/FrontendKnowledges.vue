@@ -1,22 +1,3 @@
-<template>
-<div>
-  <p class="p-4 text-left">   
-     * Conocimientos
-     <button class="bg-blue-200 text-red-300 px-3 rounded" @click="readMore =! readMore">
-        <span v-if="readMore">Leer -</span>
-        <span v-else>Leer +</span>
-      </button>
-  </p>
-  <div v-if="readMore">
-    <FrontendKnowledge
-      v-for="(item, index) in items"
-      :key="index"
-      :n="index"
-      :data="item"/>
-  </div> 
-</div>
-</template>
-
 <script lang="ts">
 import FrontendKnowledge from '@/components/FrontendKnowledge.vue'
 import FrontendKnowledges from '@/store/FrontendKnowledges'
@@ -35,4 +16,35 @@ export default {
 }
 </script>
 
-<style scoped></style>
+<template>
+<div>
+  <p class="p-4 text-left">   
+     * Conocimientos
+     <button class="bg-stone-700 hover:bg-stone-600 px-3 rounded" @click="readMore =! readMore">
+       <Transition>
+          <span v-if="readMore">Leer -</span>
+          <span v-else>Leer +</span>
+        </Transition>
+      </button>
+  </p>
+  <div v-if="readMore">
+    <FrontendKnowledge
+      v-for="(item, index) in items"
+      :key="index"
+      :n="index"
+      :data="item"/>
+  </div> 
+</div>
+</template>
+
+<style scoped>
+.v-enter-active,
+.v-leave-active {
+  transition: opacity 0.5s ease;
+}
+
+.v-enter-from,
+.v-leave-to {
+  opacity: 0;
+}
+</style>

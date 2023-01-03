@@ -5,7 +5,7 @@
     </div>
   <div class="p-4 text-base flex items-center text-justify">
     <p>Por aquí les dejo el enlace a mis dos libros publicados.
-      <button class="bg-blue-200 text-red-300 px-3 rounded" @click="readMore =! readMore">
+      <button class="bg-stone-700 hover:bg-stone-600 px-3 rounded" @click="readMore =! readMore">
         <span v-if="readMore">Leer -</span>
         <span v-else>Leer +</span>
       </button>   

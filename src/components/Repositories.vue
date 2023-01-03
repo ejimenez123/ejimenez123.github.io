@@ -2,7 +2,7 @@
 <div class="">
   <div class="pt-4 text-base font-bold flex border-b-2 border-red-200">
     <icon name="baggage" /> Repositories
-    <button class="bg-blue-200 text-red-300 px-3 rounded" @click="readMore1 =! readMore1">
+    <button class="bg-stone-700 hover:bg-stone-600 px-3 rounded" @click="readMore1 =! readMore1">
         <span v-if="readMore1">Leer -</span>
         <span v-else>Leer +</span>
       </button>
@@ -36,14 +36,14 @@ export default {
         k: 'Code Wars',
         h: 'https://www.codewars.com/users/ejimenez123'
       },{
-        k: 'Condominium Administration System',
-        h: 'https://github.com/CaribesTIC/laravel-vue-condominium'
+        k: 'CaribesTIC Desarrollo Web',
+        h: 'https://caribestic.github.io/'
       },{
         k: 'Git Hub',
         h: 'https://github.com/ejimenez123'
       },{
         k: 'Git Lab',
-        h: 'https://gitlab.com/fdsoil/FDSoil'
+        h: 'https://gitlab.com/fdsoil'
       },{
         k: 'Stack Overflow',
         h: 'https://stackoverflow.com/users/16601080/'
